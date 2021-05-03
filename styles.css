@@ -1,0 +1,183 @@
+:root {
+  --mint-cream: #f1fffaff;
+  --tea-green: #ccfccbff;
+  --celadon: #96e6b3ff;
+  --middle-green: #568259ff;
+  --ebony: #464e47ff;
+  --ebony-light: #5c685d;
+  --text-light: #ffffff;
+  --drop-shadow: rgba(0, 0, 0, 0.5);
+}
+
+html {
+  font-size: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 1em;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 0.5em;
+}
+
+.navbar ul li a {
+  color: var(--ebony);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  color: var(--ebony-light);
+}
+
+.hero {
+  -webkit-box-shadow: 0 2px 4px 1px var(--drop-shadow);
+          box-shadow: 0 2px 4px 1px var(--drop-shadow);
+  margin-top: 0;
+  background-color: var(--tea-green);
+  width: 100%;
+  padding: 2em;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  line-height: 0;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  max-width: 75ch;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  -webkit-box-shadow: 0 2px 4px 1px var(--drop-shadow);
+          box-shadow: 0 2px 4px 1px var(--drop-shadow);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5em;
+  color: var(--text-light);
+  background-color: var(--ebony);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--ebony-light);
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  max-width: 100%;
+  padding: 1em;
+}
+
+.card {
+  -webkit-box-shadow: 0 2px 4px 1px var(--drop-shadow);
+          box-shadow: 0 2px 4px 1px var(--drop-shadow);
+  margin-top: 10em;
+  padding: 1em 2em;
+  background-color: var(--middle-green);
+  color: var(--text-light);
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 2rem;
+  border-bottom: 1px solid var(--celadon);
+}
+
+.card-body {
+  max-width: 45ch;
+  line-height: 1.5rem;
+}
+
+/*
+    Large Screens
+ */
+/*
+    Small Screens
+ */
+@media screen and (max-width: 500px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

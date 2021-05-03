@@ -62,6 +62,10 @@ body {
     }
 }
 
+#hero-section {
+    width: 100%;
+}
+
 .hero {
     @include drop-shadow;
     margin-top: 0;
@@ -85,9 +89,9 @@ body {
 
     p {
         background-color: var(--ebony-translucent);
-        padding: 1em 2em;
+        padding: 1em 3em;
         border-radius: 5px;
-        max-width: 75ch;
+        max-width: 60ch;
     }
 
     &-content {
@@ -102,11 +106,12 @@ body {
     border: none;
     font-size: 1.5em;
     color: var(--text-light);
-    background-color: var(--ebony);
+    background-color: var(--middle-green);
     cursor: pointer;
+    transition: opacity 250ms ease-in-out;
 
     &:hover {
-        background-color: var(--ebony-light);
+        opacity: 85%;
     }
 }
 

@@ -65,6 +65,10 @@ body {
   color: var(--ebony-light);
 }
 
+#hero-section {
+  width: 100%;
+}
+
 .hero {
   -webkit-box-shadow: 0 2px 4px 1px var(--drop-shadow);
           box-shadow: 0 2px 4px 1px var(--drop-shadow);
@@ -101,9 +105,9 @@ body {
 
 .hero p {
   background-color: var(--ebony-translucent);
-  padding: 1em 2em;
+  padding: 1em 3em;
   border-radius: 5px;
-  max-width: 75ch;
+  max-width: 60ch;
 }
 
 .hero-content {
@@ -130,12 +134,14 @@ body {
   border: none;
   font-size: 1.5em;
   color: var(--text-light);
-  background-color: var(--ebony);
+  background-color: var(--middle-green);
   cursor: pointer;
+  -webkit-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
 }
 
 .btn:hover {
-  background-color: var(--ebony-light);
+  opacity: 85%;
 }
 
 .content {

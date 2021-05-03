@@ -138,15 +138,9 @@ body {
 }
 
 /*
-    Large Screens
+    Medium and Small Screens
  */
-// @media screen and (min-width: 900px) {
-// }
-
-/*
-    Small Screens
- */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .hero {
         h1 {
             font-size: 3rem;

@@ -1,15 +1,21 @@
 {
-  "name": "experimentation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^2.2.1"
-  }
+    "name": "playing-with-sass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "config.json": "^0.0.4",
+        "dotenv": "^8.2.0"
+    }
 }
